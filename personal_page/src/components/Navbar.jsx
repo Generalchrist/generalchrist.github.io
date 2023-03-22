@@ -1,9 +1,7 @@
 import { useState } from 'react';
 
-import Logo from '../assets/icons/Scuderia_Ferrari_Logo.svg';
-// import { menu, close } from '../assets/icons';
-import menu from '../assets/icons/menu.svg';
-import close from '../assets/icons/close.svg';
+import Logo from '../assets/images/mrte64.webp';
+import { menu, close } from '../assets/icons';
 import { navLinks } from '../constants';
 
 const Navbar = () => {

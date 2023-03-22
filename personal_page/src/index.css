@@ -4,6 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@property --myColor1 {
+  syntax: "<color>";
+  initial-value: #ffffff;
+  inherits: false;
+}
+
+@property --myColor2 {
+  syntax: "<color>";
+  initial-value: #6d6d6d;
+  inherits: false;
+}
+
+@property --myColor3 {
+  syntax: "<color>";
+  initial-value: #11101d;
+  inherits: false;
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -107,10 +125,27 @@
   }
 }
 
-.feature-card:hover {
-  background: var(--black-gradient);
+.feature-card{
   box-shadow: var(--card-shadow);
+  background: linear-gradient(
+    144.39deg,
+    var(--myColor1) -278.56%,
+    var(--myColor2) -78.47%,
+    var(--myColor3) 91.61%
+  );
+  transition: --myColor1 .7s, --myColor2 .7s, --myColor3 .7s;
+
 }
+
+.feature-card:hover {
+  --myColor1: #f5f5f5;
+  --myColor3: #0f131f;
+  --myColor2: #11101d;
+  transition: --myColor1 .7s, --myColor2 .7s, --myColor3 .7s;
+
+}
+
+
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
@@ -118,6 +153,7 @@
 
 .feedback-card {
   background: transparent;
+
 }
 
 .feedback-card:hover {

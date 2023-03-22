@@ -1,3 +1,7 @@
+import { angular, react, laravel } from '../assets/icons/';
+// import angular from '../assets/icons/angular.svg';
+// import react from '../assets/icons/react.svg';
+// import laravel from '../assets/icons/laravel.svg';
 
 export const navLinks = [
   {
@@ -5,38 +9,42 @@ export const navLinks = [
     title: "Home"
   },
   {
+    id: "about",
+    title: "About"
+  },
+  {
     id: "features",
     title: "Features"
   },
-  {
-    id: "product",
-    title: "Product"
-  },
-  {
-    id: "clients",
-    title: "Clients"
-  },
+
+  // {
+  //   id: "clients",
+  //   title: "Clients"
+  // },
 ];
 
 export const features = [
   {
     id: "feature-1",
+    icon:  angular ,
+    title: "Angular",
 
-    title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Angular is a comprehensive front-end framework that offers features like data binding, dependency injection, and observables, making it ideal for building large-scale applications.",
   },
   {
     id: "feature-2",
-    title: "100% Secured",
+    icon:  react ,
+    title: "React",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "React is a powerful front-end library that allows developers to build interactive and dynamic user interfaces.",
   },
   {
     id: "feature-3",
-    title: "Balance Transfer",
+    icon:  laravel ,
+    title: "Laravel",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Laravel is a robust back-end PHP framework that offers features like routing, middleware and Eloquent ORM.",
   },
 ];
 
@@ -67,19 +75,21 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "On Live Project",
+    value: "30+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Projects Completed",
+    value: "100+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Years of Coding Experience",
+    value: "3",
   },
+
+
 ];
 
 export const footerLinks = [
