@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../style'
-import Main from '../assets/images/deniz.webp'
+import Main from '../assets/images/hero.webp'
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${style.paddingY}`}>
