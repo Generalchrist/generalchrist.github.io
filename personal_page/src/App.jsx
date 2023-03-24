@@ -23,7 +23,7 @@ const App = () => (
         <Stats />
         <About />
         <Bussiness />
-        <CurrentJob />
+        {/* <CurrentJob /> */}
         <Footer />
       </div>
     </div>
