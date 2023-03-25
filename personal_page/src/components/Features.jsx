@@ -2,7 +2,7 @@ import React from 'react'
 import { features } from '../constants'
 import styles, { layout } from '../style'
 
-import { angular, react, laravel } from '../assets/icons/';
+import { angular, react, laravel } from '../assets/icons';
 
 const FeatureCard = ({ icon, title, content, index }) => (
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0" } feature-card  `}>
@@ -17,7 +17,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 )
 
 
-const Bussiness = () => {
+const Features = () => {
     return (
         <section id="features" className={layout.section}>
             <div className={layout.sectionInfo}>
@@ -40,4 +40,4 @@ const Bussiness = () => {
 
 
 
-export default Bussiness
+export default Features

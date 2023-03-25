@@ -4,10 +4,12 @@ import shield from './shield.svg';
 import star from './star.svg';
 import send from './send.svg';
 import Scuderia_Ferrari_logo from './Scuderia_Ferrari_logo.svg';
-import linkedin from './linkedin.svg';
+import linkedin from './linkedin.webp';
 import angular from './angular.svg';
 import react from './react.svg';
 import laravel from './laravel.svg';
+import github from './github.png';
+import umbraco from './umbraco.svg';
 
 
 export {
@@ -21,4 +23,6 @@ export {
     angular,
     react,
     laravel,
+    github,
+    umbraco
 };

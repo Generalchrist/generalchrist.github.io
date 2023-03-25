@@ -5,6 +5,7 @@ import About from "./About";
 import CurrentJob from "./CurrentJob";
 import Button from "./Button";
 import Stats from "./Stats";
-import Bussiness from "./Bussiness";
+import Features from "./Features";
+import Socials from "./Socials";
 
-export { Navbar, Hero, Footer, About, CurrentJob, Button, Stats, Bussiness };
+export { Navbar, Hero, Footer, About, CurrentJob, Button, Stats, Features,  Socials };

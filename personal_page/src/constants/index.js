@@ -1,7 +1,5 @@
-import { angular, react, laravel } from '../assets/icons/';
-// import angular from '../assets/icons/angular.svg';
-// import react from '../assets/icons/react.svg';
-// import laravel from '../assets/icons/laravel.svg';
+import { angular, react, laravel, umbraco } from '../assets/icons/';
+
 
 export const navLinks = [
   {
@@ -16,17 +14,17 @@ export const navLinks = [
     id: "features",
     title: "Features"
   },
+  {
+    id: "socials",
+    title: "Socials"
+  },
 
-  // {
-  //   id: "clients",
-  //   title: "Clients"
-  // },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon:  angular ,
+    icon: angular,
     title: "Angular",
 
     content:
@@ -34,14 +32,14 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon:  react ,
+    icon: react,
     title: "React",
     content:
       "React is a powerful front-end library that allows developers to build interactive and dynamic user interfaces.",
   },
   {
     id: "feature-3",
-    icon:  laravel ,
+    icon: laravel,
     title: "Laravel",
     content:
       "Laravel is a robust back-end PHP framework that offers features like routing, middleware and Eloquent ORM.",
@@ -94,86 +92,81 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Projects Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "BeeRyder",
+        link: "https://github.com/Generalchrist/BeeRyderRent",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "E-Trade",
+        link: "https://github.com/Generalchrist/E-Trade_Demo/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Contact",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Address",
+        link: "https://goo.gl/maps/tpERQfMXkAo9NhGA6",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Mail",
+        link: "mailto:meertpatlar@gmail.com",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Social Links",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Github",
+        link: "https://github.com/Generalchrist",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Linkedin",
+        link: "https://www.linkedin.com/in/mert-patlar/",
+      },
+      {
+        name: "Instagram",
+        link: "https://www.instagram.com/generallchrs/",
       },
     ],
   },
 ];
 
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    link: "https://www.linkedin.com/",
-  },
-];
+export const currentJob = {
+  title: "Full Stack Developer",
+  company: "Moryzone",
+  date: "2022 - Present",
+  usedLanguages: [
+    {
+      name: "Umbraco Cms",
+      level   : "95%",
+      icon: umbraco,
+    },
+    {
+      name: "Angular",
+      level   : "88%",
+      icon: angular,
+    },
+    {
+      name: "Laravel",
+      level   : "80%",
+      icon: "https://laravel.com/img/logomark.min.svg",
+    },
+    {
+      name: "React",
+      level   : "70%",
+      icon: react,
+    },
+    {
+      name: ".NET Core",
+      level   : "70%",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png",
+    },
+  ],
+};
+
 

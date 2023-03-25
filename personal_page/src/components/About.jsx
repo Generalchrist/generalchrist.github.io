@@ -20,7 +20,7 @@ const About = () => {
           with over 3 years of experience. I have a passion for
           coding and love creating clean, efficient, and user-friendly web
           applications. In addition to my work as a developer, I am also
-          currently computer engineering at Ankara University.
+          currently computer engineering student at Ankara University.
         </p>
 
       </div>
