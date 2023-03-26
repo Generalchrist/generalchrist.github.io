@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './style'
 
+
 import { Navbar, Footer, About, CurrentJob, Hero, Stats, Features, Socials } from './components'
 
 
@@ -23,7 +24,10 @@ const App = () => (
         <Stats />
         <About />
         <Features />
-        {/* <CurrentJob /> */}
+        <div className="hidden lg:block">
+
+        <CurrentJob />
+        </div>
         <Socials />
         <Footer />
       </div>
@@ -42,6 +46,7 @@ console.log(`__          __  _                            ______    _           
     \\/  \\/ \\___|_|\\___\\___/|_| |_| |_|\\___| |_|  |_|  |_|\\___|_| |_|\\__,_|
 
     I'm Mert Welcome to my personal page!
+    I saw these errors too so dont worry about them they just trippin.
     `);
 
 

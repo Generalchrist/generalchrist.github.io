@@ -133,6 +133,20 @@
 
 }
 
+.currentJob-card{
+  box-shadow: var(--card-shadow);
+  height: 300px;
+}
+
+.currentJob-card:hover > a > img {
+  transform: scale(1.1);
+  transition: transform .7s;
+}
+.currentJob-card > a > img {
+  transition: transform .7s;
+}
+
+
 
 
 .feedback-container .feedback-card:last-child {
@@ -226,3 +240,20 @@ svg {
   100% { width: 14px; opacity: 1;}
 }
 
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel .caption {
+  text-align: center;
+}
+.owl-carousel.owl-loaded{
+  height: 100%;
+}
+.owl-carousel .owl-stage-outer{
+  height: 100%;
+}
+.owl-carousel .owl-stage{
+  height: 100%;
+}

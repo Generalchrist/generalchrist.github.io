@@ -7,4 +7,5 @@ import fare from './fare.webp'
 import logo from './mrte64.webp'
 import moryzonelogo from './moryzone-logo.webp'
 
+
 export { deniz, hero, kalkis, seb, moryzone, fare, logo, moryzonelogo };

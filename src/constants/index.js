@@ -1,4 +1,5 @@
 import { angular, react, laravel, umbraco } from '../assets/icons/';
+import { dien , aproje, discovery, breezair, climate, emregok, plastika } from '../assets/images/projects';
 
 
 export const navLinks = [
@@ -13,6 +14,10 @@ export const navLinks = [
   {
     id: "features",
     title: "Features"
+  },
+  {
+    id: "current-job",
+    title: "Current Job"
   },
   {
     id: "socials",
@@ -167,6 +172,44 @@ export const currentJob = {
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png",
     },
   ],
+  projects: [
+    {
+      name: "Dien",
+      link: "https://dienenerji.com/",
+      image: dien,
+    },
+    {
+      name: "aProje",
+      link: "https://a-proje.com/",
+      image: aproje,
+    },
+    {
+      name: "Discovery",
+      link: "http://discoverymakina.moryzone.com/",
+      image: discovery,
+    },
+    {
+      name: "Breezair",
+      link: "http://breezair.moryzone.com/",
+      image: breezair
+    },
+    {
+      name: "Climate",
+      link: "http://climatewizard.moryzone.com/",
+      image: climate
+    },
+    {
+      name: "Emregok",
+      link: "http://emregokdemir.com.tr/",
+      image: emregok
+    },
+    {
+      name: "Plastika",
+      link: "http://plastika.mory.tech/",
+      image: plastika
+    }
+  ],
+      
 };
 
 
