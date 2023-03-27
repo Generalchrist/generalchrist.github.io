@@ -3,10 +3,7 @@ import { dien , aproje, discovery, breezair, climate, emregok, plastika } from '
 
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home"
-  },
+
   {
     id: "about",
     title: "About"

@@ -41,7 +41,7 @@ const UsedLanguages = () => (
           <div className="w-full">
             <h3 className="text-base font-semibold leading-7 tracking-tight text-gradient">{usedLanguage.name}</h3>
             <div className="h-1 w-full z-[2] bg-neutral-200  dark:bg-neutral-600">
-              <div className={`h-1 bg-blue-gradient z-[3] w-[${usedLanguage.level}]  `}></div>
+              <div className={`h-1 bg-blue-gradient z-[3] `} style={{width : usedLanguage.level}}></div>
             </div>
           </div>
         </div>
