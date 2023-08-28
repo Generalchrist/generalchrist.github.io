@@ -26,7 +26,7 @@ const App = () => (
         <Features />
         <div className="hidden lg:block">
 
-        <CurrentJob />
+        {/* <CurrentJob /> */}
         </div>
         <Socials />
         <Footer />
