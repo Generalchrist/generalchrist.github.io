@@ -3,6 +3,7 @@ import style from './style'
 
 
 import { Navbar, Footer, About, CurrentJob, Hero, Stats, Features, Socials } from './components'
+import Resume from './components/Resume';
 
 
 const App = () => (
@@ -24,10 +25,10 @@ const App = () => (
         <Stats />
         <About />
         <Features />
-        <div className="hidden lg:block">
-
-        {/* <CurrentJob /> */}
-        </div>
+        <Resume />
+        {/* <div className="hidden lg:block">
+         <CurrentJob /> 
+        </div> */}
         <Socials />
         <Footer />
       </div>
@@ -35,7 +36,7 @@ const App = () => (
 
   </div>
 
-  
+
 );
 
 console.log(`__          __  _                            ______    _                _ 

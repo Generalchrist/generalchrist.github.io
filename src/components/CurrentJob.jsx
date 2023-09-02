@@ -47,8 +47,6 @@ const UsedLanguages = () => (
         </div>
       </li>
     ))}
-
-
   </ul>
 )
 

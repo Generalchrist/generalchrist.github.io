@@ -257,3 +257,14 @@ svg {
 .owl-carousel .owl-stage{
   height: 100%;
 }
+
+
+div.scroll {
+  height: 470px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  scrollbar-width: thin;
+}
