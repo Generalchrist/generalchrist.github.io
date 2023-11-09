@@ -1,10 +1,9 @@
 import React from 'react'
 import styles, { layout } from '../style'
-import Button from './Button'
 import { resume } from '../assets/images'
+import Button from './Button'
 
 const Resume = () => {
-    // this component will be used to display my resume
 
     return (
         <section id='resume' className={`${layout.section}`} >

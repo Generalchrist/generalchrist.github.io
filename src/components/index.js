@@ -7,5 +7,6 @@ import Button from "./Button";
 import Stats from "./Stats";
 import Features from "./Features";
 import Socials from "./Socials";
+import Resume from "./Resume";
 
-export { Navbar, Hero, Footer, About, CurrentJob, Button, Stats, Features,  Socials };
+export { Navbar, Hero, Footer, About, CurrentJob, Button, Stats, Features,  Socials , Resume };
