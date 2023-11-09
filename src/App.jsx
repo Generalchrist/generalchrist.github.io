@@ -2,8 +2,7 @@ import React from 'react'
 import style from './style'
 
 
-import { Navbar, Footer, About, CurrentJob, Hero, Stats, Features, Socials } from './components'
-import Resume from './components/Resume';
+import { Navbar, Footer, About, CurrentJob, Hero, Stats, Features, Socials, Resume } from './components'
 
 
 const App = () => (
