@@ -7,6 +7,9 @@ import fare from './fare.webp'
 import logo from './mrte64.webp'
 import moryzonelogo from './moryzone-logo.webp'
 import resume from './MertPatlar.jpg'
+import dhsds from './dhsds.jpg'
+import akgun from './akgun.jpg'
+import hasanabi from './hasanabi.jpg'
 
 
-export { deniz, hero, kalkis, seb, moryzone, fare, logo, moryzonelogo, resume };
+export { deniz, hero, kalkis, seb, moryzone, fare, logo, moryzonelogo, resume, dhsds, akgun, hasanabi };

@@ -2,7 +2,7 @@ import React from 'react'
 import style from './style'
 
 
-import { Navbar, Footer, About, Hero, Stats, Features, Socials, Resume } from './components'
+import { Navbar, Footer, About, Hero, Stats, Features, Socials, Resume ,CurrentJob} from './components'
 
 
 const App = () => (
@@ -25,9 +25,9 @@ const App = () => (
         <About />
         <Features />
         <Resume />
-        {/* <div className="hidden lg:block">
+        <div className="hidden lg:block">
          <CurrentJob /> 
-        </div> */}
+        </div>
         <Socials />
         <Footer />
       </div>

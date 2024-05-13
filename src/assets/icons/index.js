@@ -10,6 +10,7 @@ import react from './react.svg';
 import laravel from './laravel.svg';
 import github from './github.png';
 import umbraco from './umbraco.svg';
+import mongo from './mongo.svg';
 
 
 export {
@@ -24,5 +25,6 @@ export {
     react,
     laravel,
     github,
-    umbraco
+    umbraco,
+    mongo
 };
