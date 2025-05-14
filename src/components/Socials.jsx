@@ -1,11 +1,11 @@
 import React from 'react'
 import { github, linkedin } from '../assets/icons';
-import { fare } from '../assets/images';
+import { cenkKocak } from '../assets/images';
 import styles, { layout } from '../style';
 const Socials = () => (
   <section id="socials" className={layout.sectionReverse} >
     <div className={layout.sectionImgReverse}>
-      <img src={fare} alt="mert patlar fare" className="w-[100%] h-[100%] relative z-[5] " />
+      <img src={cenkKocak} alt="mert patlar cenk kocak" className="w-[100%] h-[100%] relative z-[5] rounded-[10px]" />
       <div className="absolute z-3 -left-1/2 top-10 w-[50%] h-[50%] rounded-full white__gradient " />
       <div className="absolute z-0 -left-1/2 bottom-10 w-[50%] h-[50%] rounded-full pink__gradient " />
     </div>

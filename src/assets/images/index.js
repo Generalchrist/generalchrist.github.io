@@ -10,6 +10,8 @@ import resume from './MertPatlar.jpg'
 import dhsds from './dhsds.jpg'
 import akgun from './akgun.jpg'
 import hasanabi from './hasanabi.jpg'
+import kedy from './kedy.jpg'
+import cenkKocak from './cenkKocak.jpg'
 
 
-export { deniz, hero, kalkis, seb, moryzone, fare, logo, moryzonelogo, resume, dhsds, akgun, hasanabi };
+export { deniz, hero, kalkis, seb, moryzone, fare, logo, moryzonelogo, resume, dhsds, akgun, hasanabi, kedy , cenkKocak};
